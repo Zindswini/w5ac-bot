@@ -1,0 +1,6 @@
+services:
+  w5ac-bot:
+    build: .
+    restart: always
+    volumes:
+      - ./secrets.json:/app/secrets.json:ro,z

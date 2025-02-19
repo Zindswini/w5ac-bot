@@ -6,12 +6,12 @@ keep-alive.sh
 /.idea
 
 # Secrests
-/secrets.json
-/secrets.txt
-/secrets_5XB.json
-/secrets_W5AC.json
-/resources/exams/questions.json
-/resources/exams/answers.json
+*secrets.json
+*secrets.txt
+*secrets_5XB.json
+*secrets_W5AC.json
+*resources/exams/questions.json
+*resources/exams/answers.json
 
 # NPM
 /node_modules/
